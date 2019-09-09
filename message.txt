@@ -1,0 +1,9 @@
+INSERT PhoneNumber 0987654321 Name BuiVanHoa
+AUTHEN PhoneNumber 0987654321 Key topica
+AUTHEN PhoneNumber 0987654321 Key hust
+INSERT PhoneNumber 0987654321 Name BuiVanHoa
+AUTHEN PhoneNumber 0987654321 Key topica
+SELECT PhoneNumber 0987654321
+COMMIT PhoneNumber 0987654321
+INSERT PhoneNumber 0987654321 Name BuiVanHoa
+SELECT PhoneNumber 0987654321

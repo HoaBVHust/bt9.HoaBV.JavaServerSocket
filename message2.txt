@@ -1,0 +1,8 @@
+INSERT PhoneNumber 0938039197 Name DoanVanHau
+AUTHEN PhoneNumber 0988039197 Key hust
+INSERT PhoneNumber 0988039197 Name DoanVanHau
+AUTHEN PhoneNumber 0988039197 Key topica
+SELECT PhoneNumber 0988039197
+INSERT PhoneNumber 0988039197 Name DoanVanHau
+COMMIT PhoneNumber 0988039197
+SELECT PhoneNumber 0988039197

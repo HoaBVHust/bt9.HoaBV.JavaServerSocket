@@ -1,0 +1,4 @@
+AUTHEN PhoneNumber 0986671350 Key topica
+INSERT PhoneNumber 0986671350 Name NguyenQuangHai
+COMMIT PhoneNumber 0986671350
+SELECT PhoneNumber 0986671350
