@@ -58,7 +58,7 @@ public class StateMachine implements Runnable {
 	}
 	//2.1 Server check packet that satisfy the conditions
 	public boolean checkPhoneNotErr(Packet packet) {
-	
+		if(packet.getTLVbyTag(1).length==(short)0)return false;//packet in don't have PhoneNumber
 		byte[] bytes = packet.getTLVbyTag(1).value.getBytes();
 		if (bytes.length != 10)
 			return false;

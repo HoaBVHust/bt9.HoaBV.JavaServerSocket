@@ -8,7 +8,7 @@ import java.util.ArrayList;
 enum CmdCode {AUTHEN, INSERT, COMMIT, SELECT, ERROR};
 public class Packet {
 	int lengthOfMessage=0;
-	short cmdCode;
+	short cmdCode=3;
 	short version = 0;
 	ArrayList<TLV> arrayList = new ArrayList<TLV>();
 
