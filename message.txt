@@ -1,4 +1,4 @@
-INSERT PhoneNumber 0987654321 Name BuiVanHoa
+INSERT Name BuiVanHoa
 AUTHEN PhoneNumber 0987654321 Key topica
 AUTHEN PhoneNumber 0987654321 Key hust
 INSERT PhoneNumber 0987654321 Name BuiVanHoa
